@@ -8,8 +8,8 @@ PATH = "./conf/setting.json"
 # symbols
 auth = ""
 header = {}
-url = ""
 method = ""
+url = ""
 pem = ""
 
 # 設定ファイルから読み出し
