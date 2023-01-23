@@ -1,0 +1,20 @@
+{
+    "user":{
+        "email":"",
+        "token":""
+    },
+    "header":{
+        "Method":"GET",
+        "Accept":"application/json",
+        "Content-Type":"application/json",
+        "Authontication":""
+    },
+    "url":{
+        "target":"https://mysite.atlassian.net",
+        "path":"/rest/api/3/search?",
+        "fields":"",
+        "jql":"",
+        "maxResults":"",
+        "pem":""
+    }
+}
