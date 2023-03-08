@@ -1,3 +1,4 @@
+#encoding: utf-8
 import requests
 from requests import RequestException
 import json
