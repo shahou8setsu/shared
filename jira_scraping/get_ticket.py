@@ -3,7 +3,7 @@ import requests
 from requests import RequestException
 import json
 import base64
-
+# you must create myconf dir and put setting.json in.
 PATH = "./myconf/setting.json"
 
 # symbols
