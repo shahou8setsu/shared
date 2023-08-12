@@ -79,6 +79,9 @@ while True:
     startAt = startAt + maxResults
     if total < startAt:
         break
+# やること
+# APIコールの回数に制限をかける。最大でも1000件までの取得となるようにする
+# maxresultsが100の場合10回までのコールに制限)
 
 # print("APIcall count: " + str(call_count))
 
