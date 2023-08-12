@@ -4,7 +4,7 @@ from requests import RequestException
 import json
 import base64
 
-PATH = "./conf/setting.json"
+PATH = "./myconf/setting.json"
 
 # symbols
 auth = ""
