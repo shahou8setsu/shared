@@ -33,7 +33,7 @@ def getResponseText(path, startAt, maxResults, count):
           str(maxResults)
 # print (auth)
 
-# additional settings 
+# additional settings
         cred = "Basic " + base64.b64encode(bytes(auth.replace('\'',''),"utf-8")).decode("utf-8")
         header['Authorization'] = cred
 
@@ -73,7 +73,7 @@ while True:
 #    print (data)
     for issuekey in data["issues"]:
         print(issuekey["key"])
-        
+
     call_count += 1 # it can use filename...?
 #    print(call_count,"\n")
     startAt = startAt + maxResults
